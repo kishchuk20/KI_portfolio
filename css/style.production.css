@@ -539,4 +539,8 @@ textarea {
   flex: 1;
 }
 
-
+.register {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
