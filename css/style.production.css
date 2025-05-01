@@ -544,12 +544,14 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .centered-form form {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 300px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
