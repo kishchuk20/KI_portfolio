@@ -60,21 +60,24 @@
   </div>
   <br>
   <div class="form">
-    <form action="" method="post" id="contact-form">
+    <form action="https://formsubmit.co/issukk1237@gmail.com" method="POST">
       <div class="form-row">
         <label class="standard-label" for="contact-email">E-mail:</label>
-        <input type="email" id="contact-email" required>
+        <input type="email" id="contact-email" name="email" required>
       </div>
   
       <div class="form-row">
         <label class="standard-label" for="contact-telephone">Telephone:</label>
-        <input type="tel" id="contact-telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+        <input type="tel" id="contact-telephone" name="telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
       </div>
   
       <div class="form-row">
         <label class="standard-label" for="send-message">Message:</label>
-        <textarea maxlength="240" id="send-message" required></textarea>
+        <textarea maxlength="240" id="send-message" name="message" required></textarea>
       </div>
+  
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="New contact form submission!">
   
       <input class="send-message" type="submit" value="Send message">
     </form>
