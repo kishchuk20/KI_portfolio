@@ -83,22 +83,67 @@ a {
   color: #5e0944;
 }
 
-#my-link {
-  /* id selector */
-  color: rgb(158, 4, 89);
+.experience-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
-
-.my-link {
-  /* class selector */
-  color: #b030ca;
-}
-
-th,
-td {
-  border: 1px solid black;
-  padding: 8px;
+.experience-table {
+  border-collapse: collapse;
+  width: 600px;
   text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
 }
+
+.experience-table th, 
+.experience-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+}
+
+.experience-table th {
+  background-color: #f2f2f2;
+}
+
+.experience-table tr:hover {
+  background-color: #fcd6ed;
+  transition: background-color 0.3s ease;
+}
+.email {
+  text-align: center;
+}
+.socials {
+  text-align: center;
+}
+.send-message {
+  border: none;
+  display: inline-block;
+  font-family: inherit;
+  background-color: rgb(158, 4, 89);
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: opacity 0.2s;
+  -o-transition-property: opacity 0.2s;
+  transition-property: opacity 0.2s;
+}
+.send-message:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  -webkit-transform: scale(1.1) translateY(-5px);
+  -ms-transform: scale(1.1) translateY(-5px);
+  transform: scale(1.1) translateY(-5px);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
 
 .profile__portrait {
   float: left;
@@ -417,4 +462,38 @@ button {
 .cloud-back {
   -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
   animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+.location {
+  border: none;
+  display: inline-block;
+  font-family: inherit;
+  background-color: rgb(158, 4, 89);
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: opacity 0.2s;
+  -o-transition-property: opacity 0.2s;
+  transition-property: opacity 0.2s;
+}
+.location:hover {
+cursor: pointer;
+  opacity: 0.8;
+  -webkit-transform: scale(1.1) translateY(-5px);
+  -ms-transform: scale(1.1) translateY(-5px);
+  transform: scale(1.1) translateY(-5px);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.location-link {
+  color: #f2f2f2;
+}
+.contact-info {
+  text-align: center;
 }
