@@ -117,6 +117,7 @@ a {
   text-align: center;
 }
 .send-message {
+  margin-left: 5%;
   border: none;
   display: inline-block;
   font-family: inherit;
@@ -496,4 +497,46 @@ cursor: pointer;
 }
 .contact-info {
   text-align: center;
+  background-color: rgb(247, 224, 242);
 }
+
+.profile__portrait_contact {
+  float: center;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.profile__portrait_contact:hover {
+  -webkit-transform: scale(1.1) translateY(-5px);
+  -ms-transform: scale(1.1) translateY(-5px);
+  transform: scale(1.1) translateY(-5px);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.form {
+  max-width: 500px;  
+  margin: 0 auto;  
+  padding: 20px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.standard-label {
+  width: 100px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+input[type="email"],
+input[type="tel"],
+textarea {
+  flex: 1;
+}
+
+

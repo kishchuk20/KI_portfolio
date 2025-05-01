@@ -43,6 +43,7 @@
   <div>
     <h2>Kristina Ishchuk</h2><br>
   </div>
+  <img src="img/my_picture.jpg" class="profile__portrait_contact" alt="Kristina Ishchuk Portrait">
   <div>
     <h3> Google DC</h3>
     <h3> 25 Massachussetts Ave NW</h3>
@@ -58,24 +59,27 @@
     <a href="mailto:office@careerfoundry.com">E-mail: office@careerfoundry.com</a>
   </div>
   <br>
-
-  <form action="" method="post" id="contact-form">
-    <label class="standard-label" for="contact-email">E-mail: </label>
-    <input type="email" id="contact-email" required>
-  </form>
-  <br>
-  <form>
-    <label class="standard-label" for="contact-telephone">Telephone: </label>
-    <input type="tel" id="contact-telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
-  </form>
-  <br>
-  <form>
-    <label class="standard-label" for="send-message">Message: </label>
-    <textarea maxlength="240" id="send-message" required></textarea>
-    <input class="send-message" type="submit" value="Send message">
-  </form>
-  <br>
-
+  <div class="form">
+    <form action="" method="post" id="contact-form">
+      <div class="form-row">
+        <label class="standard-label" for="contact-email">E-mail:</label>
+        <input type="email" id="contact-email" required>
+      </div>
+  
+      <div class="form-row">
+        <label class="standard-label" for="contact-telephone">Telephone:</label>
+        <input type="tel" id="contact-telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+      </div>
+  
+      <div class="form-row">
+        <label class="standard-label" for="send-message">Message:</label>
+        <textarea maxlength="240" id="send-message" required></textarea>
+      </div>
+  
+      <input class="send-message" type="submit" value="Send message">
+    </form>
+  </div>
+  
   <footer>
     <p>Find me on</p>
     <img src="img/github_icon.svg" alt="Github">
