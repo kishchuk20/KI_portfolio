@@ -113,6 +113,16 @@ a {
 .email {
   text-align: center;
 }
+.email {
+  margin-left: 1100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
 .socials {
   text-align: center;
 }
@@ -263,6 +273,7 @@ a {
     -o-transition: transform 0.3s ease;
     transition: transform 0.3s ease;
     transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+    word-wrap: break-word;
   }
 
   .grid__item:last-child {
@@ -544,6 +555,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 185px;
   
 }
 
@@ -561,4 +573,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.work-title {
+  text-align: center;
 }
